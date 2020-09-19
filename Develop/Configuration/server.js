@@ -9,7 +9,7 @@ const express = require ("express");
 const app = express ()
 const PORT = process.env.PORT || 8080
 
-const User = require (".UserModel.js");
+// const User = require (".UserModel.js");
 
 
 app.use(logger("dev"));
@@ -23,13 +23,6 @@ app.use(express.static("public"));
 
 // Mongo database
 mongoose.connect(process.env.MONGOD_URI || "mongodb://localhost/custommethoddb", {useNewUrlParser}
-
-
-
-// Routes
-
-app.post
-
 
 // Spinning up server to listen for prompts
 console.log(`App listening on Port ${PORT}!`);
