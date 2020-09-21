@@ -9,9 +9,7 @@ const express = require ("express");
 const app = express ()
 const PORT = process.env.PORT || 8080
 
-// const User = require (".UserModel.js");
-
-
+// 
 app.use(logger("dev"));
 
 // Express app used to handle data parsing
@@ -24,9 +22,8 @@ app.use(express.static("public"));
 // Mongo database
 mongoose.connect(process.env.MONGOD_URI || "mongodb://localhost/custommethoddb", {useNewUrlParser}
 
-// Spinning up server to listen for prompts
+// Spinning up server to listen 
 console.log(`App listening on Port ${PORT}!`);
-});
 
 
 
