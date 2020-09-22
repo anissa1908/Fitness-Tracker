@@ -18,12 +18,16 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
 app.use(express.static("public"));
+require("./Routes/apiroute")(app);
+require("./Routes/htmlroute")(app)
 
 // Mongo database
-mongoose.connect(process.env.MONGOD_URI || "mongodb://localhost/custommethoddb", {useNewUrlParser}
+mongoose.connect(process.env.MONGOD_URI || "mongodb://localhost/workout", {useNewUrlParser:true, useUnifiedTopology: true})
+
 
 // Spinning up server to listen 
-console.log(`App listening on Port ${PORT}!`);
+app.listen(PORT , ()=> console.log(`App listening on Port ${PORT}!`))
+
 
 
 
