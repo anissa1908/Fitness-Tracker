@@ -12,5 +12,5 @@ A workout tracker was created using the Mongo database with a Mongoose schema an
 
 ## Image of Deployed Application
 
-![](public\fitness tracker pic.png)
+<img src="public\fitness tracker pic.png">
 
