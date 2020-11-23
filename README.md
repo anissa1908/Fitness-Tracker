@@ -12,10 +12,10 @@ A workout tracker was created using the Mongo database with a Mongoose schema an
 
 ## Image of Deployed Application
 
-<img src="public\fitness tracker pic.png">
+<img src="client\src\assets\fitness tracker pic.png">
 
-<img src = "![image](public\Workout Dashboard.png)">
+<img src="client\src\assets\Workout Dashboard.png">
 
-<!-- ![image](public\Workout Dashboard.png) -->
+
 
 
