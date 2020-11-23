@@ -14,3 +14,6 @@ A workout tracker was created using the Mongo database with a Mongoose schema an
 
 <img src="public\fitness tracker pic.png">
 
+![image](public\Workout Dashboard.png)
+<!-- <img src="public\Workout Dashboard.png"> -->
+
